@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title></title>
+    <style>
+     * {
+       padding: 0; margin: 0;
+     }
+     #emoji-hex {
+       width: 100%;
+     }
+     #table-wrapper {
+       display: inline-block;
+       vertical-align: top;
+       width: 30%;
+     }
+     table {
+       margin: 30px auto;
+     }
+     table td {
+       border: 1px solid black;
+       width: 60px;
+       height: 60px;
+       font-size: 30px;
+       text-align: center;
+       vertical-align: middle;
+     }
+
+     table td.active {
+       background: #f4f4ff
+     }
+
+     #select {
+       width: 70%;
+       text-align: center;
+       display: inline-block;
+       vertical-align: top;
+     }
+     #select-panel {
+       text-align: left;
+       max-width: 600px;
+       display: inline-block;
+       margin-top: 40px;
+       vertical-align: top;
+     }
+     #select-panel li {
+       list-style: none;
+       display: inline-block;
+       font-size: 30px;
+       padding: 1px 2px;
+       cursor: pointer;
+     }
+     #select-panel li:hover {
+       background: #f2f2f2;
+     }
+
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+  <script src="js/main.js"></script>
+</html>

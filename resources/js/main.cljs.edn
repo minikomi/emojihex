@@ -1,0 +1,3 @@
+{:require [emojihex.core]
+ :init-fns [emojihex.core/init]
+ :compiler-options {:asset-path "/js/main.out"}}
